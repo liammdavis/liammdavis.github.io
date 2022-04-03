@@ -1,7 +1,7 @@
 body {
     margin: 20px auto;
     width: 70%;
-    background-image: ('docs/assets/background.jpg');
+    background-image:'docs/assets/background.jpg';
 }
 nav ul, footer ul, #emails {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
