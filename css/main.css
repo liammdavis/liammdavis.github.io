@@ -3,7 +3,7 @@ body {
     width: 70%;
     background-image: ('docs/assets/background.jpg');
 }
-nav ul, footer ul {
+nav ul, footer ul, #emails {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -33,5 +33,8 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+
+
+    
 
 
