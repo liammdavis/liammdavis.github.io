@@ -2,6 +2,11 @@ body {
     margin: 20px auto;
     width: 70%;
     background-image: url('/docs/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 nav ul, footer ul, {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
