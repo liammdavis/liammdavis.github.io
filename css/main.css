@@ -3,7 +3,7 @@ body {
     width: 70%;
     background-image: url('background.jpg');
 }
-nav ul, footer ul, #emails {
+nav ul, footer ul, #email {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
