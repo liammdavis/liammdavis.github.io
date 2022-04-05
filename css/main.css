@@ -19,7 +19,7 @@ nav ul li, footer ul li {
     list-style: none;
 }
 
-ul .piece {
+ul .piece li {
     list-style: none;
 }
 
@@ -34,9 +34,9 @@ h1 {
     font-size: 2em;
     
 }
-p {
-    font-size: 1em;
-    line-height: 1em;
+p .body {
+    font-size: .8em;
+    line-height: .8em;
     color: black;
 }
 footer {
