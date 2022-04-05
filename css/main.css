@@ -18,6 +18,11 @@ nav ul li, footer ul li {
     margin-right: 10px;
     list-style: none;
 }
+
+.peice {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: black;
