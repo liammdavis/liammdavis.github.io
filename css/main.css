@@ -16,6 +16,7 @@ nav ul, footer ul, {
 nav ul li, footer ul li {
     display: block;
     margin-right: 10px;
+    list-style: none
 }
 a {
     text-decoration: none;
@@ -29,8 +30,8 @@ h1 {
     
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1em;
     color: black;
 }
 footer {
