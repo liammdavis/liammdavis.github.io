@@ -16,7 +16,7 @@ nav ul, footer ul, {
 nav ul li, footer ul li {
     display: block;
     margin-right: 10px;
-    list-style: none
+    list-style: none;
 }
 a {
     text-decoration: none;
