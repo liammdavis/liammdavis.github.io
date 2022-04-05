@@ -34,11 +34,12 @@ h1 {
     font-size: 2em;
     
 }
-p .body {
+p .body .title {
     font-size: .8em;
     line-height: .8em;
     color: black;
 }
+
 footer {
     font-size: .8em;
 }
