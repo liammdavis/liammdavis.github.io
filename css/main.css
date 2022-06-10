@@ -22,6 +22,7 @@ nav ul li, footer ul li {
 
 .piece li {
     list-style: none;
+    padding: 10px;
 }
 
 a {
