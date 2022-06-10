@@ -40,6 +40,7 @@ p .body .title {
     font-size: .8em;
     line-height: .8em;
     color: black;
+    padding-right: 40px;
 }
 
 footer {
