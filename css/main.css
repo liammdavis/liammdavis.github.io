@@ -47,8 +47,9 @@ footer {
     font-size: .8em;
 }
 
-div .work {
+div .work .about {
     padding: 40px;
+    margin-left: 40px;
 }
 
 
