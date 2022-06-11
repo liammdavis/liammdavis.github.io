@@ -40,10 +40,20 @@ footer {
     font-size: .8em;
 }
 
-.work, .other {
+.work {
     padding: 40px;
     margin-left: 40px;
     list-style: none;
+}
+
+.other {
+    padding: 40px;
+    margin-left: 40px;
+    list-style: none;
+}
+
+div .about {
+    padding-left: 40px;
 }
 
 div ul {
