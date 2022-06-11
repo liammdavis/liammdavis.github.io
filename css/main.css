@@ -7,28 +7,21 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
-nav ul, footer ul, {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 20px;
+nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: block;
-    margin-right: 10px;
     list-style: none;
-    padding: 20px;
-}
-
-.piece li {
-    list-style: none;
-    padding: 10px;
+    padding-bottom: 10%;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -36,21 +29,27 @@ h1 {
     font-size: 2em;
     
 }
-p .body .title {
+.body, .title {
     font-size: .8em;
     line-height: .8em;
     color: black;
-    padding: 40px;
+    padding-left: 40px;
 }
 
 footer {
     font-size: .8em;
 }
 
-div .work .about {
+.work, .other {
     padding: 40px;
     margin-left: 40px;
+    list-style: none;
 }
+
+div ul {
+    padding-bottom: 10%;
+}
+
 
 
 
