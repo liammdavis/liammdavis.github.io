@@ -14,7 +14,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: block;
     list-style: none;
-    padding-bottom: 10%;
+    padding-bottom: 7.5%;
 }
 
 a {
@@ -29,35 +29,37 @@ h1 {
     font-size: 2em;
     
 }
-.body, .title {
+.body {
     font-size: .8em;
     line-height: .8em;
     color: black;
     padding-left: 40px;
 }
-
+.work-title {
+    font-size: .9em;
+    line-height: 1;
+    color: black;
+}
 footer {
     font-size: .8em;
 }
 
-.work {
-    padding: 40px;
-    margin-left: 40px;
-    list-style: none;
-}
-
-.other {
-    padding: 40px;
-    margin-left: 40px;
+.work, .other {
+    padding: 7.5%;
+    margin-left: 7.5%;
     list-style: none;
 }
 
 .about {
-    padding-left: 40px;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: .8em;
+    line-height: .8em;
 }
 
 div ul {
-    padding-bottom: 10%;
+    padding-bottom: 7.5%;
+    list-style: none;
 }
 
 
