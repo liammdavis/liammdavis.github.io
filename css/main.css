@@ -45,6 +45,13 @@ footer {
     font-size: .8em;
 }
 
+.piece li, .other li {
+    padding-bottom: 7.5%;
+    margin-left: 0%;
+    list-style: none;
+    font-size: 1.5em;
+}
+
 
 
 .about {
