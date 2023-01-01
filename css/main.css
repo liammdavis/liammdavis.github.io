@@ -39,8 +39,8 @@ h1 {
     
 }
 .body {
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     color: black;
     padding-left: 40px;
 }
@@ -57,7 +57,7 @@ footer {
     padding-bottom: 7.5%;
     margin-left: 0%;
     list-style: none;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 
