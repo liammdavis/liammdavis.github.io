@@ -60,6 +60,13 @@ footer {
     font-size: 3em;
 }
 
+.title li {
+    padding-bottom: 7.5%;
+    margin-left: 0%;
+    list-style: none;
+    font-size: 4em;
+}
+
 
 
 .about {
