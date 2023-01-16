@@ -101,7 +101,7 @@ h2 {
 
 @media screen and (max-width: 1000px )  { 
     .piece li, .other li {
-        padding-bottom: 3%;
+        padding-bottom: 7.5%;
         margin-left: 0%;
         list-style: none;
         font-size: 8vw;
