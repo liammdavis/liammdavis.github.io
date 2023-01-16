@@ -22,7 +22,7 @@ footer ul li {
     display: block;
     list-style: none;
     padding-bottom: 5%;
-    font-size: 2em;
+    font-size: .5vw;
 }
     
 
@@ -57,14 +57,14 @@ footer {
     padding-bottom: 7.5%;
     margin-left: 0%;
     list-style: none;
-    font-size: 3em;
+    font-size: 1vw;
 }
 
 .head li {
     padding-bottom: 0%;
     margin-left: 0%;
     list-style: none;
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
 
