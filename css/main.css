@@ -99,4 +99,17 @@ h2 {
 
 }
 
+@media screen and (max-width: 1000px )  { 
+    h1 {
+        font-size: 8em;
+    }
 
+}
+
+
+@media screen and (max-width: 1000px )  { 
+    .body {
+        font-size: 8em;
+    }
+
+}
