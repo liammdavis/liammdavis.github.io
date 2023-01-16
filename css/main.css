@@ -90,26 +90,36 @@ h2 {
 }
 
 @media screen and (max-width: 1000px )  { 
-    nav ul li, .head li {
+    nav ul li {
         display: block;
         list-style: none;
-        padding-bottom: 5%;
-        font-size: 4em;
+        padding-bottom: 7.5%;
+        font-size: 8vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .head li {
+        display: block;
+        list-style: none;
+        padding-bottom: 7.5%;
+        font-size: 8vw;
     }
 
 }
 
 @media screen and (max-width: 1000px )  { 
     h1 {
-        font-size: 8em;
+        font-size: 15vw;
     }
 
 }
-
 
 @media screen and (max-width: 1000px )  { 
-    .body {
-        font-size: 8em;
+    footer {
+        font-size: 3vw;
     }
 
 }
+
