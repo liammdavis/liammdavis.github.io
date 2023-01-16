@@ -15,7 +15,7 @@ nav ul li {
     display: block;
     list-style: none;
     padding-bottom: 5%;
-    font-size: 4em;
+    font-size: 2vw;
 }
 
 footer ul li {
@@ -35,7 +35,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 8em;
+    font-size: 5vw    ;
     
 }
 .body {
@@ -64,7 +64,7 @@ footer {
     padding-bottom: 0%;
     margin-left: 0%;
     list-style: none;
-    font-size: 4em;
+    font-size: 5vw;
 }
 
 
