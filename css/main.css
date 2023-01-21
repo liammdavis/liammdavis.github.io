@@ -127,7 +127,7 @@ h2 {
 }
 
 @media screen and (max-width: 1000px )  { 
-    footer {
+    footer ul li {
         font-size: 5vw;
     }
 
