@@ -152,8 +152,12 @@ h2 {
     clear: both;
 }
 
-.front {
-    width: 25vw;
+.frontright {
+    width: 65vw;
+}
+
+.frontleft {
+    width: 300;
 }
 
 
