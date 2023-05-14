@@ -162,14 +162,14 @@ h2 {
 
 
 @media screen and (max-width: 1000px )  { 
-    column {
+    .column {
         float: none;
     }
 
 }
 
 @media screen and (max-width: 700px )  { 
-    frontright {
+    .frontright {
        width: 95vw;
     }
 
