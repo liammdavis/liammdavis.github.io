@@ -153,8 +153,8 @@ h2 {
 }
 
 .frontright {
-    width: auto;
-    display: block;
+    max-width: 700;
+    
 }
 
 .frontleft {
@@ -169,10 +169,10 @@ h2 {
 
 }
 
-@media screen and (max-width: 700px )  { 
+@media screen and (max-width: 1000px )  { 
     .frontright {
-       width: auto;
-       display: block;
+       max-width: 350;
+       
     }
 
 }
