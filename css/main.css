@@ -133,3 +133,21 @@ h2 {
 
 }
 
+.column {
+    float: right;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 1000px )  { 
+    column {
+        float: none;
+    }
+
+}
