@@ -135,7 +135,15 @@ h2 {
 
 .column {
     float: right;
-    width: 50%;
+    width: 33%;
+}
+
+.left {
+    width: 35%
+}
+    
+.right {
+    width: 65%
 }
 
 .row:after {
@@ -144,10 +152,21 @@ h2 {
     clear: both;
 }
 
+.front {
+    width: 25vw;
+}
+
 
 @media screen and (max-width: 1000px )  { 
     column {
         float: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    front {
+        width: 100vw
     }
 
 }
