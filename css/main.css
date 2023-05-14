@@ -153,12 +153,12 @@ h2 {
 }
 
 .frontright {
-    max-width: 700;
+    width: 100%;
     
 }
 
 .frontleft {
-    width: 300;
+    width: 80%;
 }
 
 
@@ -170,9 +170,9 @@ h2 {
 }
 
 @media screen and (max-width: 1000px )  { 
-    .frontright {
-       max-width: 350;
-       
+    .right, .left {
+        width: 100%;
     }
 
 }
+
