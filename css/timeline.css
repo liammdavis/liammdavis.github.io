@@ -1,0 +1,246 @@
+body {
+    
+    background-image: url('/docs/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.timeline {
+	width:2400px;
+	height: 20px;
+	list-style: none;
+	text-align: justify;
+	margin: 80px auto;
+}
+
+.timeline:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+.timeline li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #F2BB13;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	border-radius: 50%;
+}
+.timeline li:before {
+	display: inline-block;
+	content: attr(data-year);
+	font-size: 26px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.timeline li {
+	top: -40px;
+}
+
+.timeline li:after {
+	display: inline-block;
+	content: attr(data-text);
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.timeline li {
+	bottom: 0;
+	margin-bottom: -10px;
+	transform: translate(-50%, 100%);
+}
+
+.img {
+    top: -80px;
+}
+
+
+/*
+nav ul, footer ul {
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li {
+    display: block;
+    list-style: none;
+    padding-bottom: 3%;
+    font-size: 2vw;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+    padding-bottom: 3%;
+    font-size: 1.5vw;
+}
+    
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 5vw    ;
+    
+}
+.body {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: black;
+    padding-left: 40px;
+}
+.work-title {
+    font-size: 1.5em;
+    line-height: 2;
+    color: black;
+}
+footer {
+    font-size: 1em;
+}
+
+.piece li, .other li {
+    padding-bottom: 3%;
+    margin-left: 0%;
+    list-style: none;
+    font-size: 2vw;
+}
+
+.head li {
+    padding-bottom: 0%;
+    margin-left: 0%;
+    list-style: none;
+    font-size: 2vw;
+}
+
+
+
+.about {
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+div ul {
+    padding-bottom: 0;
+    list-style: none;
+}
+
+h2 {
+    margin: 7.7%;
+}
+
+.righthand {
+    position: right;
+}
+
+@media screen and (max-width: 1000px )  { 
+    nav ul li {
+        display: block;
+        list-style: none;
+        padding-bottom: 7.5%;
+        font-size: 8vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .piece li, .other li {
+        padding-bottom: 7.5%;
+        margin-left: 0%;
+        list-style: none;
+        font-size: 8vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .head li {
+        display: block;
+        list-style: none;
+        padding-bottom: 7.5%;
+        font-size: 8vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    h1 {
+        font-size: 15vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    footer ul li {
+        font-size: 5vw;
+    }
+
+}
+
+.column {
+    float: right;
+    
+}
+
+.left {
+    width: 35%
+}
+    
+.right {
+    width: 65%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.frontright {
+    width: 100%;
+    
+}
+
+.frontleft {
+    width: 40%;
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width: 1000px )  { 
+    .column {
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .right, .left {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .frontleft {
+        width: 80%;
+        
+
+    }
+
+}
+-->
