@@ -9,11 +9,12 @@ body {
 }
 
 .timeline {
-	width:2400px;
-	height: 20px;
+	width:4800px;
+	height: 10px;
 	list-style: none;
 	text-align: justify;
 	margin: 80px auto;
+    background: black; 
 }
 
 .timeline:after {
@@ -36,32 +37,30 @@ body {
 	content: attr(data-year);
 	font-size: 26px;
 	position: absolute;
+    top: -80px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
-.timeline li {
-	top: -40px;
-}
+
 
 .timeline li:after {
 	display: inline-block;
 	content: attr(data-text);
 	font-size: 16px;
 	position: absolute;
+    margin-bottom: -10px;
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translate(-50%,25%);
 }
 
-.timeline li {
-	bottom: 0;
-	margin-bottom: -10px;
-	transform: translate(-50%, 100%);
+img .timeline li :after {
+	display: inline-block;
+    position: absolute;
+	left: 50%;
+	transform: translate(-50%, 25%);
 }
 
-.img {
-    top: -80px;
-}
 
 
 /*
