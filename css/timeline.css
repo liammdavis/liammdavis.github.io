@@ -60,6 +60,7 @@ img .timeline li :after {
     position: absolute;
 	left: 50%;
 	transform: translate(-50%, 25%);
+    align-content: start;
 }
 
 
