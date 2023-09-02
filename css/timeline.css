@@ -55,7 +55,7 @@ body {
     width: 200px;
 }
 
-img .timeline li :after {
+img :after {
 	display: inline-block;
     position: absolute;
 	left: 50%;
