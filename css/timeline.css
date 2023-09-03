@@ -37,7 +37,7 @@ body {
 	content: attr(data-year);
 	font-size: 26px;
 	position: absolute;
-    top: -80px;
+    top: -160px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -61,6 +61,10 @@ img :after {
 	left: 0%;
 	transform: translate(0%, 25%);
     align-content: start;
+}
+
+img {
+    left: -50px;
 }
 
 
