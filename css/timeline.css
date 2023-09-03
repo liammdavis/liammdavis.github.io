@@ -63,7 +63,7 @@ img :after {
     align-content: start;
 }
 
-img {
+.img {
     left: -50px;
 }
 
