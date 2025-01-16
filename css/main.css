@@ -1,27 +1,27 @@
 @font-face {
     font-family: Barlow;
-    src: url(/docs/fonts/Barlow-Medium.woff);
+    src: url("/docs/fonts/Barlow-Medium.woff") format(woff);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Barlow;
-    src: url(/docs/fonts/Barlow-MediumItalic.woff);
+    src: url("/docs/fonts/Barlow-MediumItalic.woff") format(woff);
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: Barlow;
-    src: url(/docs/fonts/Barlow-Bold.woff);
+    src: url("/docs/fonts/Barlow-Bold.woff") format(woff);
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Barlow;
-    src: url(/docs/fonts/Barlow-BoldItalic.woff);
+    src: url("/docs/fonts/Barlow-BoldItalic.woff") format(woff);
     font-weight: bold;
     font-style: italic;
 }
@@ -107,7 +107,7 @@ footer {
 
 .about {
     font-family: Barlow;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-bottom: 10%;
     font-size: 1em;
     line-height: 2em;
