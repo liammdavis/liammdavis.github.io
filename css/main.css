@@ -37,7 +37,7 @@ body {
 }
 
 div {
-    font-family: "publicsans";
+    font-family: "publicsans", Arial, Helvetica, sans-serif;
 }
 
 nav ul, footer ul {
