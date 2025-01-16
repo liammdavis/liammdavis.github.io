@@ -10,28 +10,28 @@ body {
 
 @font-face {
     font-family: "Barlow";
-    src: url('./docs/assets/fonts/Barlow-Medium.woff') format('woff');
+    src: url('/docs/assets/fonts/Barlow-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Barlow";
-    src: url('./docs/assets/fonts/Barlow-MediumItalic.woff') format('woff');
+    src: url('/docs/assets/fonts/Barlow-MediumItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Barlow";
-    src: url('./docs/assets/fonts/Barlow-Bold.woff') format('woff');
+    src: url('docs/assets/fonts/Barlow-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Barlow";
-    src: url('./docs/assets/fonts/Barlow-BoldItalic.woff') format('woff');
+    src: url('/docs/assets/fonts/Barlow-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
