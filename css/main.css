@@ -9,34 +9,35 @@ body {
 }
 
 @font-face {
-    font-family:"publicsans";
-    src: url('../docs/assets/PublicSans-Medium.woff') format('woff');
+    font-family:'publicsans';
+    src: url('/fonts/PublicSans-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family:"publicsans";
-    src: url('../docs/assets/PublicSans-MediumItalic.woff') format('woff');
+    font-family:'publicsans';
+    src: url('/fonts/PublicSans-MediumItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family:"publicsans";
-    src: url('../docs/assets/PublicSans-ExtraBold.woff') format('woff');
+    font-family:'publicsans';
+    src: url('/fonts/PublicSans-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family:"publicsans";
-    src: url('../docs/assets/PublicSans-ExtraBoldItalic.woff') format('woff');
+    font-family:'publicsans';
+    src: url('/fonts/PublicSans-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
+
 div {
-    font-family:"publicsans";
+    font-family: "publicsans";
 }
 
 nav ul, footer ul {
