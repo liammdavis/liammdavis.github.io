@@ -74,6 +74,10 @@ h1 {
     font-family: "publicsans";
     font-size: 5vw    ;
     
+}.header {
+    font-family: "publicsans";
+    font-size: 5vw    ;
+    
 }
 .body {
     font-family: "publicsans";
@@ -182,16 +186,47 @@ h2 {
 
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+#content {
+    height: 100%;
+}
+#left {
+    float: left;
+    width: 30%;
+    
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.4em;
+}
+#right {
+    float: left;
+    width: 70%;
+    
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.4em;
+}
 .column {
+  
     float: right;
+
     
 }
 
 .left {
+ 
     width: 35%
+
 }
     
 .right {
+  
     width: 65%
 }
 
