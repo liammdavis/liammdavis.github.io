@@ -253,10 +253,16 @@ html, body {
     }
 
 }
-
 @media screen and (max-width: 1000px )  { 
-    .right, .left {
+    html,body {
+        overflow:auto
+    }
+
+}
+@media screen and (max-width: 1000px )  { 
+    .right, .left, #right, #left {
         width: 100%;
+        float: none;
     }
 
 }
