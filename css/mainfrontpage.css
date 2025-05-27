@@ -72,13 +72,11 @@ a:hover {
 }
 h1 {
     font-family: "publicsans";
-    font-size: 5vw    ;
-    
-}.header {
-    font-family: "publicsans";
-    font-size: 5vw    ;
+    font-size: 4vw    ;
+    padding-left: .5em; 
     
 }
+
 .body {
     font-family: "publicsans";
     font-size: 1.5em;
@@ -111,6 +109,16 @@ footer {
     font-size: 2vw;
 }
 
+.boldother {
+    font-family: "publicsans";
+    padding-bottom: 3%;
+    margin-left: 0%;
+    list-style: none;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
 .head li {
     font-family: "publicsans";
     padding-bottom: 0%;
@@ -142,6 +150,10 @@ h2 {
     position: right;
 }
 
+.footer {
+    font-size: 1.5vw;
+}
+
 @media screen and (max-width: 1000px )  { 
     nav ul li {
         display: block;
@@ -161,6 +173,8 @@ h2 {
     }
 
 }
+
+
 
 @media screen and (max-width: 1000px )  { 
     .head li {
