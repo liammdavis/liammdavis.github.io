@@ -63,7 +63,7 @@ footer ul li {
     
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
@@ -97,6 +97,7 @@ h1 {
     font-size: 1.5em;
     line-height: 2;
     color: black;
+    padding-left: 3%;
 }
 footer {
     font-family: "publicsans";
@@ -194,6 +195,9 @@ h2 {
     
 }
 
+img{
+    padding-left: 3%;
+}
 .left {
  
     width: 35%
