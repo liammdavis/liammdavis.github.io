@@ -74,6 +74,8 @@ h1 {
     font-family: "publicsans";
     font-size: 4vw    ;
     padding-left: .5em; 
+    padding-bottom: 1%;
+    margin-bottom:3%;
     
 }
 
@@ -144,7 +146,10 @@ div ul {
 
 h2 {
     font-family: "publicsans";
-    margin: 7.7%;
+    margin: 0%;
+    padding-top:1%;
+    padding-left: 7.7%;
+    padding-bottom: 7.7%;
 }
 
 .righthand {
@@ -274,21 +279,27 @@ html, body {
 
 
 @media screen and (max-width: 1000px )  { 
-    .column {
-        float: none;
-    }
-
-}
-@media screen and (max-width: 1000px )  { 
     html,body {
         overflow:auto
     }
 
 }
+
+@media screen and (max-width: 1000px )  { 
+     .left, #left {
+        width: 100%;
+        float: hidden ;
+        overflow:auto;
+         position:sticky;
+    }
+
+}
+
 @media screen and (max-width: 1000px )  { 
     .right, .left, #right, #left {
         width: 100%;
-        float: none;
+        float: hidden ;
+        overflow:auto;
     }
 
 }
@@ -301,10 +312,37 @@ html, body {
     }
 
 }
+@media screen and (max-width: 1000px )  { 
+    .frontleft {
+        width: 80%;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 1000px )  { 
+    .row:after {
+    content: "";
+    display:grid;
+    clear:both;
+}
+
+}
+
+@media screen and (max-width: 1000px )  { 
+.column {
+  
+    float: none;
+
+    
+}
+
+}
 
 #clickme:hover {
     opacity: (10%);
-    -webkit-filter: blur(2px); 
-    filter: blur(2px);
+    -webkit-filter: blur(20px); 
+    filter: blur(20px);
     
 }

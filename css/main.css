@@ -70,11 +70,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-family: "publicsans";
-    font-size: 5vw    ;
+    font-size: 4vw    ;
+    padding-left: .5em; 
+    padding-bottom: 1%;
+    margin-bottom:3%;
     
-}.header {
+}
+
+.header {
     font-family: "publicsans";
     font-size: 5vw    ;
     
@@ -137,7 +143,10 @@ div ul {
 
 h2 {
     font-family: "publicsans";
-    margin: 7.7%;
+    margin: 0%;
+    padding-top:1%;
+    padding-left: 7.7%;
+    padding-bottom: 7.7%;
 }
 
 .righthand {
