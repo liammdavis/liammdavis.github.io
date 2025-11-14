@@ -243,6 +243,7 @@ html, body {
     box-sizing: border-box;
     padding: 0.4em;
 }
+
 .column {
   
     float: right;
@@ -270,6 +271,11 @@ html, body {
 .frontright {
     width: 85%;
     
+}
+
+.frontrightvert{
+    width: 42.5%;
+    float: left;
 }
 
 .frontleft {
