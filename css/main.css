@@ -102,6 +102,11 @@ h1 {
     color:darkblue;
 }
 
+.body strong {
+        font-size: 1.8em;
+
+}
+
 .imgbody  {
     float: right;
     padding-left: 0%;
@@ -118,12 +123,12 @@ h1 {
 
 .work-title strong {
     font-family: "publicsans";
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 2;
     color: black;
-    padding-left: 3%;
+  
 }
-
+.
 
 footer {
     font-family: "publicsans";
@@ -294,7 +299,7 @@ img {
     filter: blur(20px);
 }
 
-.hoverfous:hover {
+.hoverfocus:hover {
     opacity: (100%);
     -webkit-filter: blur(0px); 
     filter: blur(0px);
