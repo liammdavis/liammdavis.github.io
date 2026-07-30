@@ -71,6 +71,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.people {
+    color:darkblue;
+}
+
 h1 {
     font-family: "publicsans";
     font-size: 4vw    ;
@@ -98,6 +102,10 @@ h1 {
     color:darkblue;
 }
 
+.body img {
+    float: right;
+}
+
 .work-title {
     font-family: "publicsans";
     font-size: 1.5em;
@@ -105,6 +113,16 @@ h1 {
     color: black;
     padding-left: 3%;
 }
+
+.work-title strong {
+    font-family: "publicsans";
+    font-size: 2em;
+    line-height: 2;
+    color: black;
+    padding-left: 3%;
+}
+
+
 footer {
     font-family: "publicsans";
     font-size: 1em;
@@ -258,3 +276,25 @@ img {
     }
 
 }
+
+.caption {
+    font-family: "publicsans";
+    font-size: 1em;
+    line-height: 1em;
+    color: black;
+    padding-right: 10%;
+    padding-left: 4%;
+}
+
+.hoverfocus {
+    opacity: (10%);
+    -webkit-filter: blur(20px); 
+    filter: blur(20px);
+}
+
+.hoverfous:hover {
+    opacity: (100%);
+    -webkit-filter: blur(0px); 
+    filter: blur(0px);
+}
+
