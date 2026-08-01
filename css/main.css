@@ -107,6 +107,10 @@ h1 {
 
 }
 
+.body ul {
+    line-height: 2em;
+}
+
 
 
 .imgbody  {
@@ -287,6 +291,20 @@ img {
 }
 
 .caption {
+    font-family: "publicsans";
+    font-size: 1em;
+    line-height: 1em;
+    color: black;
+    padding-right: 10%;
+    padding-left: 4%;
+}
+
+.figurelivingrecords {
+    width: 27%;
+    float: left;
+}
+
+figcaption {
     font-family: "publicsans";
     font-size: 1em;
     line-height: 1em;
